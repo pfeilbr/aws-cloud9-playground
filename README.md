@@ -1,6 +1,7 @@
 # aws-cloud9-playground
 
-learn [AWS Cloud9](https://aws.amazon.com/cloud9/)
+* learn [AWS Cloud9](https://aws.amazon.com/cloud9/)
+* setup remote development environment
 
 ## Enabling SSH Connectivity
 
