@@ -19,6 +19,9 @@ X minutes.
 * perform "Enabling SSH Connectivity" steps
 * see [vscode | Remote development over SSH](https://code.visualstudio.com/docs/remote/ssh-tutorial)
 
+vscode remotely SSH connected screenshot
+
+![](https://www.evernote.com/l/AAFjZ-9n0FZKAYf1bAOao7RJcTKpfeEMEy4B/image.png)
 
 ## Resources
 
