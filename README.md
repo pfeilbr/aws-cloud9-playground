@@ -12,7 +12,7 @@
 * ssh -i ~/.ssh/id_rsa  ubuntu@dev01.brianpfeil.com
 
 
-### Troublehsooting
+### Troubleshooting
 
 * may need to connect via Cloud9 IDE to "wake up"/start instance due to "auto stop" of EC2 instance after
 X minutes.
