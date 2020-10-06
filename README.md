@@ -9,10 +9,29 @@
     ![](https://www.evernote.com/l/AAEY_BSM7g5PVa72gIFEevDXgdKE1E-zAdoB/image.png)
 * add `~/.ssh/id_rsa.pub` to `/home/ec2-user/.ssh/authorized_keys`.  do this via Cloud9 IDE shell
     ![](https://www.evernote.com/l/AAGhf-SuVVRDtpS8fMS9lRQmHCwQSs6A1v8B/image.png)
-* ssh -i ~/.ssh/id_rsa  ec2-user@ec2-34-226-142-54.compute-1.amazonaws.com
+* ssh -i ~/.ssh/id_rsa  ubuntu@dev01.brianpfeil.com
 
-> NOTE: may need to connect via Cloud9 IDE to "wake up"/start instance due to "auto stop" of EC2 instance after
+
+### Troublehsooting
+
+* may need to connect via Cloud9 IDE to "wake up"/start instance due to "auto stop" of EC2 instance after
 X minutes.
+* May need to remote host in `~/.ssh/known_hosts` if the following error
+    ```sh
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+    @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+    IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+    Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+    It is also possible that a host key has just been changed.
+    The fingerprint for the ECDSA key sent by the remote host is
+    SHA256:<deleted>
+    Please contact your system administrator.
+    Add correct host key in ~/.ssh/known_hosts to get rid of this message.
+    Offending ECDSA key in ~/.ssh/known_hosts:37
+    ECDSA host key for dev01.brianpfeil.com has changed and you have requested strict checking.
+    Host key verification failed.
+    ```
 
 ## VS Code Remote Development on Cloud9
 
