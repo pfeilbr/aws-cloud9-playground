@@ -16,7 +16,7 @@
 
 * may need to connect via Cloud9 IDE to "wake up"/start instance due to "auto stop" of EC2 instance after
 X minutes.
-* May need to remote host in `~/.ssh/known_hosts` if the following error
+* May need to remote remote host in `~/.ssh/known_hosts` on client if the following error
     ```sh
     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
     @    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
